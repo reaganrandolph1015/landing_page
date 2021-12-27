@@ -1,0 +1,9 @@
+#bodyBg {
+    background-color: rgb(30, 30, 30);
+}
+
+.header {
+    font-family: Roboto, sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
