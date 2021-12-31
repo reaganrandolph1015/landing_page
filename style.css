@@ -15,6 +15,10 @@ body {
     margin: 0rem 5rem 0rem 5rem;
 }
 
+.headerImg {
+    margin: 0rem 5rem 5rem 0rem;
+}
+
 h1 {
     color: #F9FAF8
 }
@@ -30,14 +34,14 @@ h1 {
 }
 .headerBg {
     background-color: #1F2937;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
 }
 
 .section {
     background-color: #F9FAF8;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
     padding: 16px;
 }
 
@@ -74,8 +78,8 @@ h1 {
 
 .quoteBg {
     background-color: #E5E7EB;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
     padding: 16px;
 }
 
@@ -99,8 +103,8 @@ h1 {
 
 .bannerSectionBg {
     background-color: #F9FAF8;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
     text-align: center;
 }
 
@@ -110,6 +114,7 @@ h1 {
     margin: 5rem 5rem 5rem 5rem;
     border-radius: 10px;
     padding: 16px;
+    width: 175vh;
 }
 
 .banner {
@@ -120,6 +125,9 @@ h1 {
 
 .bannerText {
     color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .bannerButton {
@@ -129,8 +137,8 @@ h1 {
 
 .footer {
     background-color: #1F2937;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
     color: #F9FAF8;
     display: flex;
     justify-content: center;
