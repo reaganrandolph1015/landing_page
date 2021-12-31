@@ -1,9 +1,109 @@
-#bodyBg {
+body {
     background-color: rgb(30, 30, 30);
+    font-family: 'Robot', sans-serif;
 }
 
 .header {
-    font-family: Roboto, sans-serif;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    color: #F9FAF8;
+}
+
+.headerContainer {
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+h1 {
+    color: #F9FAF8
+}
+
+.headerSubtext {
+    color: #E5E7EB
+}
+
+.headerContent {
+    display: flex;
+    justify-content: space-evenly;
+}
+.headerBg {
+    background-color: #1F2937;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.section {
+    background-color: #F9FAF8;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.sectionImgs {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.quoteBg {
+    background-color: #E5E7EB;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+}
+
+.quoter {
+    font-size: 16px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.bannerSectionBg {
+    background-color: #F9FAF8;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    text-align: center;
+}
+
+.bannerBg {
+    background-color: #3882F6;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+    border-radius: 10px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bannerText {
+
+}
+
+.bannerButton {
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    padding: 16px;
 }
